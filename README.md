@@ -31,7 +31,24 @@ else:
  else:
     print("b is greater number") 
     
- # 5) Find the give number beloging to which group(group1: less than 40)  (group2: between 40 and 50) (group3: greater than 50) 
+ # 5) Find the give number beloging to which group(group1: less than 40)  (group2: between 40 and 50) (group3: greater than 50)
+ a=int(input()) 
+ if (a<=40) :
+    print("Group1") 
+ elif (a>40) and (a<50) 
+    print("Group2") 
+ else:
+    print("Group3") 
+    
+ # 6) Accept two numbers print the sum is odd or even
+ num1=int(input()) 
+ num2=int(input()) 
+ num3=num1+num2
+ if num3%2==0:
+    print("even") 
+ else:
+    print("odd") 
+ 
  
  
    
