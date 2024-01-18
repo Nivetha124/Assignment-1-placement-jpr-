@@ -124,6 +124,18 @@ print(count)
       
 # 12.2) Display N even numbers which is divisible by X starting from Y
 
+def display_even_numbers(n, x, y):
+    count = 0
+    current_number = y
+    
+    while count < n:
+        if current_number % 2 == 0 and current_number % x == 0:
+            print(current_number)
+            count += 1
+        current_number += 1
+
+# Example: Display 5 even numbers divisible by 3, starting from 10
+display_even_numbers(5, 3, 10)
 
 
  
